@@ -529,8 +529,8 @@ public class ViewPegawai extends javax.swing.JFrame {
 
                 cps.simpanDataSekarang(mps);
 
-                /*ViewPegawaiSekarang vps = new ViewPegawaiSekarang();
-                vps.dataTable2();*/
+                ViewPegawaiSekarang vps = new ViewPegawaiSekarang();
+                vps.dataTable2();
                 bersih2();
             } catch (Exception e) {
                 System.err.println("" + e);
@@ -593,8 +593,8 @@ public class ViewPegawai extends javax.swing.JFrame {
                 String name = jTextFieldNama.getText();
                 mps.setNama(name);
                 cps.hapusData(mps);
-                /*ViewPegawaiSekarang vps = new ViewPegawaiSekarang();
-                vps.dataTable2();*/
+                ViewPegawaiSekarang vps = new ViewPegawaiSekarang();
+                vps.dataTable2();
                 bersih();
                 bersih2();
             } catch (Exception e) {
@@ -628,14 +628,14 @@ public class ViewPegawai extends javax.swing.JFrame {
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
-        /*ViewPegawaiKeluar vpk = new ViewPegawaiKeluar();
-        vpk.show();*/
+        ViewPegawaiKeluar vpk = new ViewPegawaiKeluar();
+        vpk.show();
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         // TODO add your handling code here:
-        //ViewPegawaiSekarang vs = new ViewPegawaiSekarang();
-        //vs.show();
+        ViewPegawaiSekarang vs = new ViewPegawaiSekarang();
+        vs.show();
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void jButtonSimpanMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtonSimpanMouseExited
